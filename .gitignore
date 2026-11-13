@@ -1,0 +1,19 @@
+# Local secrets / config — never commit
+.env
+secrets/*
+!secrets/README.md
+*.p8
+*.pem
+*.key
+
+# Downloaded / generated data
+data/
+exports/
+*.csv
+*.tsv
+*.tsv.gz
+*.txt.gz
+*.gz
+
+__pycache__/
+.DS_Store
